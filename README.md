@@ -1,12 +1,6 @@
-# Plasma Systemd Control
+# Plasma Folderlist
 
-This is a simple plasma applet for KDE Plasma 5 to control systemd services. It is not designed to be a complete user interface for systemd, but it provides an convenient way to start and stop selected services. 
-
-### Supported Features
-* start service (`sudo systemctl start SERVICE`)
-* stop service (`sudo systemctl stop SERVICE`)
-* updates automatically if status changed externally
-* system units and user units (--user)
+This is a simple plasma applet for KDE Plasma 5 to display a list of folders for quick navigation. There is no other functionality than open a directory. The official folder view is more complex and provides more features, but the ui is too cluttered if you just want to display directory names.
 
 ### Installation
 1. mkdir biuld
@@ -16,19 +10,3 @@ This is a simple plasma applet for KDE Plasma 5 to control systemd services. It 
 5. make install
 
 For Arch Linux there is a package available via AUR: https://aur.archlinux.org/packages/plasma5-applets-systemd/
-
-### Dependencies (Debian)
-
-* cmake
-* linux-libc-dev
-* build-essential
-* extra-cmake-modules
-* libkf5config-dev
-* libkf5plasma-dev
-* qt5-default
-* qtdeclarative5-dev
-
-### Prerequisite
-
-To work properly, you must be able to run `sudo systemctl` without password. Usually you can achieve this be editing `/etc/sudoers` with visudo. 
-
