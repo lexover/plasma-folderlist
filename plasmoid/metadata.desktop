@@ -1,0 +1,15 @@
+[Desktop Entry]
+Name=Folderlist
+Comment=Displays folders as a list
+Encoding=UTF-8
+Icon=format-text-code
+ServiceTypes=Plasma/Applet
+Type=Service
+X-KDE-PluginInfo-Author=David Baum
+X-KDE-PluginInfo-Email=david.baum@naraesk.eu
+X-KDE-PluginInfo-Name=eu.naraesk.folderlist
+X-KDE-PluginInfo-License=GPL
+X-KDE-PluginInfo-Version=1.0.0
+X-KDE-PluginInfo-Website=https://github.com/naraesk/plasma-folderlist
+X-Plasma-API=declarativeappletscript
+X-Plasma-MainScript=ui/main.qml
