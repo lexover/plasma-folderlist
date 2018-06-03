@@ -9,4 +9,4 @@ This is a simple plasma applet for KDE Plasma 5 to display a list of folders for
 4. make
 5. make install
 
-For Arch Linux there is a package available via AUR: https://aur.archlinux.org/packages/plasma5-applets-systemd/
+For Arch Linux there is a package available via AUR: https://aur.archlinux.org/packages/plasma5-applets-folderlist/
